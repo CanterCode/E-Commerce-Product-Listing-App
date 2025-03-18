@@ -1,6 +1,6 @@
 import './ProductItem.css';
 
-function ProductItem({ product}){
+function ProductItem({ product }){
     return (
         <div className="product-card">
             <img src={product.image} alt={product.name} />

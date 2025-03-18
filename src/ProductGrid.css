@@ -1,0 +1,19 @@
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+#category-label {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#category {
+    font-size: .9rem;
+    margin-bottom: 20px;
+    color: #333;
+}

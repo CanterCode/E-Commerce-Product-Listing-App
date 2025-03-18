@@ -1,6 +1,6 @@
 import ProductItem from './ProductItem';
 import { array } from 'prop-types';
-import './ProductList.css';
+import './ProductGrid.css';
 
 const ProductList = ({ products }) => {
     return (
